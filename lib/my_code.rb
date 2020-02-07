@@ -17,3 +17,11 @@ def map_to_no_change(source_array)
   end
   source_array
 end 
+
+def map_to_double(source_array)
+  i = 0 
+  double_arr = []
+  
+  while i < source_array.length
+
+end   
