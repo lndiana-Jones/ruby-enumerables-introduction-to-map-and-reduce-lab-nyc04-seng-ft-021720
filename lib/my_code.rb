@@ -54,16 +54,14 @@ end
 
 def reduce_to_all_true(source_array)
   i = 0
-  new_var = nil
+  
   while i < source_array.length
-    if source_array[i] == true
-      new_var = true
-    else
-      new_var = false
+    if source_array[i] == false
+     return false
     end 
     i += 1 
   end  
-  new_var
+  return true
 end 
 
 
